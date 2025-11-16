@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+.placeholder {
+    color: theme(color.gray.500);
+}
+
+.surface {
+    background-color: var(--color-container);
+}
+
+.listbox {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem .5rem;
+    margin-top: .5rem;
+    border-radius: .75rem;
+    width: fit-content;
+    min-width: 16rem;
+}
+
+.listbox-label {
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+.input {
+    padding: .5rem .75rem;
+    outline: none;
+    border-radius: .75rem;
+    min-width: 16rem;
+}
+
+.radio-group {
+    display: flex;
+    padding: .5rem;
+    flex-direction: column;
+    border-radius: .75rem;
+    min-width: 16rem;
+}
+
+.radio-label {
+    display: inline-flex;
+    padding: .5rem;
+    border-radius: .75rem;
+    gap: .5rem;
+}
+
+.checkbox {
+    display: flex;
+    padding: .5rem;
+    flex-direction: column;
+    border-radius: .75rem;
+    min-width: 16rem;
+}
+
+.checkbox-label {
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    padding: .5rem;
+    border-radius: .75rem;
+    gap: .5rem;
+}
+
+.text-area {
+    display: flex;
+    padding: .5rem .75rem;
+    border-radius: .75rem;
+    min-height: fit-content;
+    min-width: 16rem;
+    width: fit-content;
+    max-width: 100%;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+}
+
+.text-area--resizable {
+    resize: vertical;
+}
+
+.text-area--fixed {
+    resize: none;
+}

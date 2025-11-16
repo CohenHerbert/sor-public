@@ -1,0 +1,21 @@
+@import url("https://rsms.me/inter/inter.css");
+@import "tailwindcss";
+
+:root {
+    font-family: Inter, serif;
+}
+
+@theme {
+    --color-bg: theme(colors.white);
+    --color-fg: inherit;
+}
+
+html {
+    min-height: 100%;
+    font-weight: 600;
+}
+
+.antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
