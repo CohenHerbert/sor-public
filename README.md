@@ -2,6 +2,8 @@
 
 **Project:** School of Ranch — Web Application (public repository)
 
+Viewable at: sor-project.vercel.app
+
 **Short description:** A responsive React + Vite dashboard using Supabase which syncs event/registration data and uses AI-assisted planning via an OpenAI integration. Built for School of Ranch to provide users with a more integrated and seemless experience with workshops and account information.
 
 **Why this project matters**
